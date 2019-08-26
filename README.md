@@ -22,13 +22,13 @@ Make sure you also change the 50 kbps
 
 in C:\Users\USERNAME\Documents\Arduino\libraries\CAN_BUS_Shield-master\mcp_can_dfs
 
-[code]#define MCP_8MHz_50kBPS_CFG1 (0x03) //actually 8MHZ 47.619kBPS<br />
+#define MCP_8MHz_50kBPS_CFG1 (0x03) //actually 8MHZ 47.619kBPS<br />
 #define MCP_8MHz_50kBPS_CFG2 (0xBB) //actually 8MHZ 47.619kBPS<br />
-#define MCP_8MHz_50kBPS_CFG3 (0x07) //actually 8MHZ 47.619kBPS[/code]<br />
+#define MCP_8MHz_50kBPS_CFG3 (0x07) //actually 8MHZ 47.619kBPS<br />
 <br />
-and 
-[code]#define MCP_16MHz_50kBPS_CFG1 (0x06) //actually 16MHZ 47.619kBPS<br />
+and <br />
+#define MCP_16MHz_50kBPS_CFG1 (0x06) //actually 16MHZ 47.619kBPS<br />
 #define MCP_16MHz_50kBPS_CFG2 (0xBE) //actually 16MHZ 47.619kBPS<br />
-#define MCP_16MHz_50kBPS_CFG3 (0x07) //actually 16MHZ 47.619kBPS[/code]<br />
+#define MCP_16MHz_50kBPS_CFG3 (0x07) //actually 16MHZ 47.619kBPS<br />
 <br />
 Because SAAB I-bus is not exactly 50kBPS. For the rest follow my instructions on github. The code is for ESP8266, but should work on other arduino flavors with very slight modifications.
